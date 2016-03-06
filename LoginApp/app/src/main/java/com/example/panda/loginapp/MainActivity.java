@@ -85,7 +85,7 @@ public class MainActivity extends ActionBarActivity {
                 try{
                     HttpClient httpClient = new DefaultHttpClient();
                     HttpPost httpPost = new HttpPost(
-                            "http://10.8.95.64/phptest/test.php");
+                            "http://test-dashdb.mybluemix.net/connexion/test.php");
                     httpPost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
 
                     HttpResponse response = httpClient.execute(httpPost);

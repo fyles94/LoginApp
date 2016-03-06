@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/toolbar" android:id="@+id/toolbar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="50px"
+        android:text="Bienvenue dans notre magasin\n Voici la carte du magasin"
+        android:textSize="35px"
+        />
+
+    <ImageView
+        android:id="@+id/map_Mall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:src="@drawable/map"
+        android:contentDescription="Carte du magasin" />
+
+
+</LinearLayout>
